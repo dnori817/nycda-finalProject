@@ -1,0 +1,145 @@
+/*div {
+	border: solid 1px black;
+
+}
+*/
+
+#login {
+	height: 25px;
+	background-color: #252e35;
+
+}
+
+#banner {
+	background-color: black; 
+}
+
+#banner .col-md-12 img {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: none;
+}
+
+
+
+#navbar .col-md-3 {
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: #8a90b6;
+	background-color: #252e35;
+
+}
+
+#navbar .col-md-3:hover {
+	color: #252e35;
+	background-color: #8a90b6;
+
+}
+
+
+#main {
+	background-image: url("../img/rcbg.jpg");
+	/*padding-right: 15px;*/
+
+
+}
+
+#main2 {
+	background-image: url("../img/bg3.jpg");
+	/*padding-right: 15px;*/
+
+
+}
+
+#main3 {
+	background-image: url("../img/bg2.jpg");
+	/*padding-right: 15px;*/
+
+
+}
+
+#main4 {
+	background-image: url("../img/bg4.png");
+}
+
+
+
+
+#main .col-md-4 {
+	height: 750px;
+}
+
+#main .col-md-8 {
+	height: 750px;
+}
+
+#main2 .col-md-1 {
+	height: 4000px;
+	background-color: black;
+
+}
+
+#main2 .col-md-10 {
+	height: 4000px;
+	background: rgba(128, 128, 128, .8);
+	color: black;
+
+}
+#main3 .col-md-1 {
+	height: 750px;
+	background-color: black;
+
+}
+
+#main3 .col-md-10 {
+	height: 750px;
+	background: rgba(128, 128, 128, .8);
+	color: black;
+
+}
+
+#main4 .col-md-1 {
+	height: 750px;
+	background-color: black;
+
+}
+
+#main4 .col-md-10 {
+	height: 750px;
+	background: rgba(128, 128, 128, .8);
+	color: black;
+
+}
+
+section {
+	width:48%;
+/*	background: rgba(128, 128, 128, .8);
+*/	float:right;
+	height: 730px;
+	border: solid 1px black;
+	margin-left: 10px;
+
+
+}
+
+#poster {
+	height: 300px;
+	width: 188px;
+	padding: 5px;
+}
+
+#footer {
+	height: 25px;
+	background-color: #252e35;
+	color: #8a90b6;
+	text-align: right;
+
+}
+
+#sidebar {
+	background-color: black;
+	;
+}
+
