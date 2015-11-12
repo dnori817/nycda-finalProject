@@ -23,7 +23,24 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row" id="login">
-				<div class="col-md-12">A SHRINE TO THE 1987 MASTERPIECE</div>
+				<div class="col-md-12">
+					<form class="form-inline" name="login">
+					  	<div class="form-group">
+					    	<label class="sr-only" for="exampleInputEmail3">User Name</label>
+					    	<input type="text" class="form-control" id="exampleInputEmail3" name="userid" placeholder="UserName">
+					  	</div>
+					  	<div class="form-group">
+					    	<label class="sr-only" for="exampleInputPassword3">Password</label>
+					    	<input type="password" class="form-control" id="exampleInputPassword3" name="pswrd" placeholder="Password">
+					  	</div>
+					  	<div class="checkbox">
+					    	<label>
+					      	<input type="checkbox"> Remember me
+					    	</label>
+					  	</div>
+					  	<button type="button" class="btn btn-default" onclick="check(this.form)" value="Login">Sign in</button>
+					</form>
+				</div>
 			</div>
 			<div class="row" id="banner">
 				<div class="col-md-12">
@@ -32,8 +49,8 @@
 			</div>
 			<div class="row" id="navbar">
 				<a href="index.html"><div class="col-md-3">HOME</div></a>
-				<a href="plot.html"><div class="col-md-3">PLOT</div></a>
-				<a href="cast.html"><div class="col-md-3">CAST</div></a>
+				<a href="plot.html"><div class="col-md-3">CAST/STORY</div></a>
+				<a href="cast.html"><div class="col-md-3">GALLERY</div></a>
 				<a href="join.html"><div class="col-md-3">JOIN</div></a>
 			</div>
 			<div class="row" id="main2">
@@ -79,6 +96,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
 		<script src="js/bootstrap.js"></script>
 		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> -->
+
+		<script src="js/velocity.js"></script>
 
 
 		<script type="text/javascript" src="js/custom.js"></script>

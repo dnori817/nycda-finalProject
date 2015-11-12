@@ -5,7 +5,7 @@
 */
 
 #login {
-	height: 50px;
+	height: 55px;
 	background-color: #252e35;
 
 }
@@ -25,6 +25,7 @@
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: none;
+
 }
 
 
@@ -125,6 +126,12 @@
 
 }
 
+#main4 img {
+	height: 150px;
+	width: 250px;
+	margin: 10px;
+}
+
 #main5 .col-md-1 {
 	height: 590px;
 	background-color: black;
@@ -159,7 +166,7 @@ section {
 	height: 25px;
 	background-color: #252e35;
 	color: #8a90b6;
-	text-align: right;
+	text-align: center;
 
 }
 
@@ -170,5 +177,23 @@ section {
 
 
 .form-control {
-	width: 50%;
+	width: 25%;
+}
+
+#state {
+	width: 20%;
+
+}
+
+#zip {
+	width: 20%;
+
+}
+
+#submitButton {
+	width: 10%;
+}
+
+#submitButton2 {
+	width: 10%;
 }
