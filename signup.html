@@ -36,10 +36,32 @@
 				<a href="cast.html"><div class="col-md-3">CAST</div></a>
 				<a href="join.html"><div class="col-md-3">JOIN</div></a>
 			</div>
-			<div class="row" id="main4">
+			<div class="row" id="main5">
+				
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
+					<h3>CREATE USERNAME AND PASSWORD</h3> 
+					<form>
+						<div class="fieldWrapper">
+            				<label for="user">Create UserName:  </label>
+            				<br>
+            				<input type="text" name="user" id="user">
+            			</div>
+        				<div class="fieldWrapper">
+            				<label for="pass1">Create Password: </label>
+            				<br>
+            				<input type="password" name="pass1" id="pass1">
+        				</div>
+				        <div class="fieldWrapper">
+				            <label for="pass2">Confirm Password:</label>
+				            <br>
+				            <input type="password" name="pass2" id="pass2" onkeyup="checkPass(); return false;">
+				            <span id="confirmMessage" class="confirmMessage"></span>
+				        </div>
+				        <br>
+							<input  type="button" id="submitButton2" value="Submit">
 
+				    </form>	
 				</div>
 				<div class="col-md-1"></div>
 			</div>

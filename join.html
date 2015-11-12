@@ -41,20 +41,20 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
 					<h3>JOIN THE FAN CLUB TODAY!</h3> 
-						<form action="payment.html" method="POST">
+						<form class="form-horizontal" action="payment.html" method="POST">
 							<label for="firstName">Name</label>
 							<br>
-							<input type="text" id="firstName" name="firstName" placeholder="FIRST NAME" />
+							<input class="form-control" type="text" id="firstName" name="firstName" placeholder="FIRST NAME" />
 							<br>
-							<input type="text" id="lastName" name="lastName" placeholder="LAST NAME" />
+							<input class="form-control" type="text" id="lastName" name="lastName" placeholder="LAST NAME" />
 							<br>
 							<label for="street">Address</label>
 							<br>
-							<input type="text" id="street" name="street" placeholder="STREET ADDRESS" />
+							<input class="form-control" type="text" id="street" name="street" placeholder="STREET ADDRESS" />
 							<br>
-							<input type="text" id="city" name="city" placeholder="CITY/TOWN" />
-							<select id="state">
-								<option value="null"> --- STATE --- </option>
+							<input class="form-control" type="text" id="city" name="city" placeholder="CITY/TOWN" />
+							<select  id="state">
+								<option value="null">STATE</option>
 								<option value="AL">Alabama</option>
 								<option value="AK">Alaska</option>
 								<option value="AZ">Arizona</option>
@@ -109,9 +109,10 @@
 							</select>
 							<input type="text" id="zip" name="zip" placeholder="ZIP CODE" />
 							<br>
+							<br>
 							<label for="email">E-mail</label>
 							<br>
-							<input type="text" id="email" name="email" placeholder="E-MAIL ADDRESS" />
+							<input class="form-control" type="text" id="email" name="email" placeholder="E-MAIL ADDRESS" />
 
 							<h3>Your Favorite RoboCop Movie</h3>
 							<div class="radio">
@@ -128,20 +129,19 @@
 							</div>
 							<div class="radio">
 							  <label>
-							    <input type="radio" name="options" id="options2" value="option2">
+							    <input type="radio" name="options" id="options3" value="option3">
 							    RoboCop 3
 							  </label>
 							</div>
 							<div class="radio">
 							  <label>
-							    <input type="radio" name="options" id="options2" value="option2">Robocop (2014) 
+							    <input type="radio" name="options" id="options4" value="option4">RoboCop (2014) 
 							  </label>
 
 														  
 							</div>
 							  <br>
 							<input  type="button" id="submitButton" value="Submit">
-
 
 						</form>
 				</div>

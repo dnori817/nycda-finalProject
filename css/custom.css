@@ -5,9 +5,15 @@
 */
 
 #login {
-	height: 25px;
+	height: 50px;
 	background-color: #252e35;
 
+}
+
+#login .form-inline {
+	text-align: right;
+	padding-top: 5px;
+	color: #8a90b6;
 }
 
 #banner {
@@ -64,6 +70,12 @@
 	background-image: url("../img/bg4.png");
 }
 
+#main5 {
+	background-image: url("../img/bg5.gif");
+}
+
+
+
 
 
 
@@ -113,6 +125,19 @@
 
 }
 
+#main5 .col-md-1 {
+	height: 590px;
+	background-color: black;
+
+}
+
+#main5 .col-md-10 {
+	height: 590px;
+	background: rgba(128, 128, 128, .5);
+	color: black;
+
+}
+
 section {
 	width:48%;
 /*	background: rgba(128, 128, 128, .8);
@@ -140,6 +165,10 @@ section {
 
 #sidebar {
 	background-color: black;
-	;
+	
 }
 
+
+.form-control {
+	width: 50%;
+}
