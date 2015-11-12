@@ -148,11 +148,37 @@
 section {
 	width:48%;
 /*	background: rgba(128, 128, 128, .8);
-*/	float:right;
+*/	float:left;
 	height: 730px;
-	border: solid 1px black;
+	
 	margin-left: 10px;
 
+
+}
+
+img {
+	float: left;
+
+}
+
+#l p { 
+	font-size: 17px;
+	margin: 5px;
+}
+#r img {
+	width: 100%;
+	margin: 5px;
+}
+
+#r p { 
+	font-size: 12px;
+	margin: 5px;
+	font-style: italic;
+}
+
+.critic {
+	font-weight: bold;
+	font-size: 10px;
 
 }
 
