@@ -89,13 +89,13 @@
 }
 
 #main2 .col-md-1 {
-	height: 4450px;
+	height: 4375px;
 	background-color: black;
 
 }
 
 #main2 .col-md-10 {
-	height: 4450px;
+	height: 4375px;
 	background: rgba(128, 128, 128, .8);
 	color: black;
 
@@ -167,11 +167,30 @@ section {
 }
 
 
+a {
+	color: black;
+	text-decoration: none;
+}
 
+a:hover {
+	color: white;
+	
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+
+}
 
 
 td {
 	font-size: 25px;
+
+}
+
+td a {
 
 }
 
