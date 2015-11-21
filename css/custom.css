@@ -167,20 +167,21 @@ section {
 }
 
 
-a {
+#main2 a {
 	color: black;
 	text-decoration: none;
 }
 
-a:hover {
-	color: white;
+#main2 a:hover {
+	font-style: italic;
+	color: #252e35;
 	
 
 }
 
-a:visited {
+#main2 a:visited {
 	text-decoration: none;
-	color: black;
+	
 
 }
 
