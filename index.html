@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="img/OCP.ico">
+		<title>RoboCop</title>
+		<!--NORMALIZE-->
+		<link rel="stylesheet" href="css/normalize.css"/>
+
+		<!-- Latest compiled and minified CSS  CDN
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->			
+
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+
+
+		<!-- Optional theme
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+
+		<!-- <link rel="stylesheet" href="css/bootstrap-theme.css"/> -->
+
+		<link rel="stylesheet" href="css/custom.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="login">
+				<div class="col-md-12">
+					
+					<form class="form-inline" name="login">
+					  	<div class="form-group">
+					    	<label class="sr-only" for="exampleInputEmail3">User Name</label>
+					    	<input type="text" class="form-control" id="exampleInputEmail3" name="userid" placeholder="UserName">
+					  	</div>
+					  	<div class="form-group">
+					    	<label class="sr-only" for="exampleInputPassword3">Password</label>
+					    	<input type="password" class="form-control" id="exampleInputPassword3" name="pswrd" placeholder="Password">
+					  	</div>
+					  	<div class="checkbox">
+					    	<label>
+					      	<input type="checkbox"> Remember me
+					    	</label>
+					  	</div>
+					  	<button type="button" class="btn btn-default" onclick="check(this.form)" value="Login">Sign in</button>
+					</form>
+				</div>
+			</div>
+			<div class="row" id="banner">
+				<div class="col-md-12">
+					<img src="img/banner.jpg">
+				</div>
+			</div>
+			<div class="row" id="navbar">
+				<a href="index.html"><div class="col-md-3" >HOME</div></a>
+				<a href="plot.html"><div class="col-md-3" >CAST/STORY</div></a>
+				<a href="cast.html"><div class="col-md-3">GALLERY</div></a>
+				<a href="join.html"><div class="col-md-3">JOIN</div></a>
+			</div>
+			<div class="row" id="main">
+				<div class="col-md-4" id="sidebar">
+					<iframe id="trailer" width="420" height="245" src="https://www.youtube.com/embed/KN9I25kMevM" frameborder="0" allowfullscreen></iframe>
+					<iframe width="420" height="245" src="https://www.youtube.com/embed/9cySKHPqIjw" frameborder="0" allowfullscreen></iframe>
+					<iframe width="420" height="245" src="https://www.youtube.com/embed/IvDNfFVpvZI" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-8">
+					<section id="l">
+						<img id="poster" src="img/poster.jpg">
+						<p>Robocop, part man part machine, is arguably director Paul Verhoffens most critically acclaimed film. Starring Peter Wellar as the hero cyborg, Nancy Allen as his helpful partner, the excellent Kurtwood Smith in his most famous role of the villan Clarence Boddiker and Ronny Cox as Dick Jones, this film is one of the true 80's action/sci-fi classics of the decade. Detroit patrolman Alex Murphy is gunned down and killed by a ruthless set of gang members led by Boddiker (Smith) and becomes the basis of an experimental cyborg programe by a company called OCP. </p>
+						<br>
+						<br>
+						<p>Taking to the streets to fight crime in old Detriot Robocop begins to remember parts from his human past and sets out to bring his murderers in, dead or alive, all the while assisted by his partner anne Lewis (Allen). The movie ends with a showdown between Robocp and the gang members who murdered him, aswell as defeating the evil OCP vice president who attempts to rid Robocop in place of his own OCP project, Dick Jones (Cox).</p>
+					</section>
+
+
+					<section id="r">
+						<img src="img/star.png">
+						<br>
+						<p>Like the tormented figure at its center, this movie combines the mechanical with the human. And though much of the film is made up of spare parts from cop shows, exploitation flicks and comic books, it nevertheless comes to life.</p>
+						<p class="critic">Jay Boyar - Orlando Sentinel</p>
+						<br>						
+						<p>Verhoeven's strong suits have always been visual energy and a Rabelaisan realism: a gutsy, jovial way of ripping through social systems.
+						</p>
+						<p class="critic">Michael Wilmington - Los Angeles Times</p>
+						<br>						
+						<p>There's a brooding, agonized quality to the violence that almost seems subversive, as if Verhoeven were both appalled and fascinated by his complicity in the toxic action rot.</p>
+						<p class="critic">Pat Graham - Chicago Reader</p>
+						<br>						
+						<p>A perfect version of the thing it sets out to be, one of the most intellectual and propulsive of all '80s action films.</p>
+						<p class="critic">Tim Brayton - 
+						Antagony & Ecstasy</p>
+						<br>
+						<img src="img/robo.jpg">
+					</section>
+
+					
+					
+				</div>
+			</div>
+			<div class="row" id="footer">
+				<div class="col-md-12">Copyright &copy 2015 David Noriega</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+
+		<script src="js/jquery.js"></script>
+
+		<!-- Latest compiled and minified JavaScript 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+		<script src="js/bootstrap.js"></script>
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> -->
+		<script src="js/velocity.js"></script>
+
+
+		<script type="text/javascript" src="js/custom.js"></script>
+	
+	</body>
+</html>

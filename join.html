@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="img/OCP.ico">
+		<title>RoboCop</title>
+		<!--NORMALIZE-->
+		<link rel="stylesheet" href="css/normalize.css"/>
+
+		<!-- Latest compiled and minified CSS  CDN
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->			
+
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+
+
+		<!-- Optional theme
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+
+		<!-- <link rel="stylesheet" href="css/bootstrap-theme.css"/> -->
+
+		<link rel="stylesheet" href="css/custom.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="login">
+				<div class="col-md-12">
+					<form class="form-inline" name="login">
+					  	<div class="form-group">
+					    	<label class="sr-only" for="exampleInputEmail3">User Name</label>
+					    	<input type="text" class="form-control" id="exampleInputEmail3" name="userid" placeholder="UserName">
+					  	</div>
+					  	<div class="form-group">
+					    	<label class="sr-only" for="exampleInputPassword3">Password</label>
+					    	<input type="password" class="form-control" id="exampleInputPassword3" name="pswrd" placeholder="Password">
+					  	</div>
+					  	<div class="checkbox">
+					    	<label>
+					      	<input type="checkbox"> Remember me
+					    	</label>
+					  	</div>
+					  	<button type="button" class="btn btn-default" onclick="check(this.form)" value="Login">Sign in</button>
+					</form>
+				</div>
+			</div>
+			<div class="row" id="banner">
+				<div class="col-md-12">
+					<img src="img/banner.jpg">
+				</div>
+			</div>
+			<div class="row" id="navbar">
+				<a href="index.html"><div class="col-md-3">HOME</div></a>
+				<a href="plot.html"><div class="col-md-3">CAST/STORY</div></a>
+				<a href="cast.html"><div class="col-md-3">GALLERY</div></a>
+				<a href="join.html"><div class="col-md-3">JOIN</div></a>
+			</div>
+			<div class="row" id="main3">
+				
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<h3>JOIN THE ROBOCOP MESSAGE BOARD</h3> 
+						<form class="form-horizontal" action="payment.html" method="POST">
+							<label for="firstName">Name</label>
+							<br>
+							<input class="form-control" type="text" id="firstName" name="firstName" placeholder="FIRST NAME" />
+							
+							<input class="form-control" type="text" id="lastName" name="lastName" placeholder="LAST NAME" />
+							<br>
+							<label for="street">Address</label>
+							<br>
+							<input class="form-control" type="text" id="street" name="street" placeholder="STREET ADDRESS" />
+							
+							<input class="form-control" type="text" id="city" name="city" placeholder="CITY/TOWN" />
+							<select class="form-control" id="state">
+								<option value="null">STATE</option>
+								<option value="AL">Alabama</option>
+								<option value="AK">Alaska</option>
+								<option value="AZ">Arizona</option>
+								<option value="AR">Arkansas</option>
+								<option value="CA">California</option>
+								<option value="CO">Colorado</option>
+								<option value="CT">Connecticut</option>
+								<option value="DE">Delaware</option>
+								<option value="DC">District of Columbia</option>
+								<option value="FL">Florida</option>
+								<option value="GA">Georgia</option>
+								<option value="HI">Hawaii</option>
+								<option value="ID">Idaho</option>
+								<option value="IL">Illinois</option>
+								<option value="IN">Indiana</option>
+								<option value="IA">Iowa</option>
+								<option value="KS">Kansas</option>
+								<option value="KY">Kentucky</option>
+								<option value="LA">Louisiana</option>
+								<option value="ME">Maine</option>
+								<option value="MD">Maryland</option>
+								<option value="MA">Massachusetts</option>
+								<option value="MI">Michigan</option>
+								<option value="MN">Minnesota</option>
+								<option value="MS">Mississippi</option>
+								<option value="MO">Missouri</option>
+								<option value="MT">Montana</option>
+								<option value="NE">Nebraska</option>
+								<option value="NV">Nevada</option>
+								<option value="NH">New Hampshire</option>
+								<option value="NJ">New Jersey</option>
+								<option value="NM">New Mexico</option>
+								<option value="NY">New York</option>
+								<option value="NC">North Carolina</option>
+								<option value="ND">North Dakota</option>
+								<option value="OH">Ohio</option>
+								<option value="OK">Oklahoma</option>
+								<option value="OR">Oregon</option>
+								<option value="PA">Pennsylvania</option>
+								<option value="RI">Rhode Island</option>
+								<option value="SC">South Carolina</option>
+								<option value="SD">South Dakota</option>
+								<option value="TN">Tennessee</option>
+								<option value="TX">Texas</option>
+								<option value="UT">Utah</option>
+								<option value="VT">Vermont</option>
+								<option value="VA">Virginia</option>
+								<option value="WA">Washington</option>
+								<option value="WV">West Virginia</option>
+								<option value="WI">Wisconsin</option>
+								<option value="WY">Wyoming</option>
+							</select>
+							<input class="form-control"type="text" id="zip" name="zip" placeholder="ZIP CODE" />
+							<br>
+							<br>
+							<label for="email">E-mail</label>
+							<br>
+							<input class="form-control" type="text" id="email" name="email" placeholder="E-MAIL ADDRESS" />
+
+							<h3>Your Favorite RoboCop Movie</h3>
+							<div class="radio">
+							  <label>
+							    <input type="radio" name="options" id="options1" value="option1" checked>
+							    RoboCop (1987)
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+							    <input type="radio" name="options" id="options2" value="option2">
+							    RoboCop 2
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+							    <input type="radio" name="options" id="options3" value="option3">
+							    RoboCop 3
+							  </label>
+							</div>
+							<div class="radio">
+							  <label>
+							    <input type="radio" name="options" id="options4" value="option4">RoboCop (2014) 
+							  </label>
+
+														  
+							</div>
+							  <br>
+							<input  class="form-control"type="button" id="submitButton" value="Submit">
+
+						</form>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row" id="footer">
+				<div class="col-md-12">Copyright &copy 2015 David Noriega</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+
+		<script src="js/jquery.js"></script>
+
+		<!-- Latest compiled and minified JavaScript 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+		<script src="js/bootstrap.js"></script>
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> -->
+		<script src="js/velocity.js"></script>
+
+
+		<script type="text/javascript" src="js/custom.js"></script>
+	
+	</body>
+</html>

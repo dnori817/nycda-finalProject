@@ -1,0 +1,276 @@
+/*div {
+	border: solid 1px black;
+
+}
+*/
+
+#login {
+	height: 55px;
+	background-color: #252e35;
+
+}
+
+#login .form-inline {
+	text-align: right;
+	padding-top: 5px;
+	color: #8a90b6;
+}
+
+#banner {
+	background-color: black; 
+}
+
+#banner .col-md-12 img {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: none;
+
+}
+
+
+
+#navbar .col-md-3 {
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: #8a90b6;
+	background-color: #252e35;
+
+}
+
+#navbar .col-md-3:hover {
+	color: #252e35;
+	background-color: #8a90b6;
+
+}
+
+
+#main {
+	background-image: url("../img/rcbg.jpg");
+	/*padding-right: 15px;*/
+
+
+}
+
+#main2 {
+	background-image: url("../img/bg3.jpg");
+	/*padding-right: 15px;*/
+
+
+}
+
+#main3 {
+	background-image: url("../img/bg2.jpg");
+	/*padding-right: 15px;*/
+
+
+}
+
+#main4 {
+	background-image: url("../img/bg4.png");
+}
+
+#main5 {
+	background-image: url("../img/bg5.gif");
+}
+
+
+
+
+
+
+#main .col-md-4 {
+	height: 750px;
+}
+
+#main .col-md-8 {
+	height: 750px;
+}
+
+#main2 .col-md-1 {
+	height: 4375px;
+	background-color: black;
+
+}
+
+#main2 .col-md-10 {
+	height: 4375px;
+	background: rgba(128, 128, 128, .8);
+	color: black;
+
+}
+#main3 .col-md-1 {
+	height: 750px;
+	background-color: black;
+
+}
+
+#main3 .col-md-10 {
+	height: 750px;
+	background: rgba(128, 128, 128, .8);
+	color: black;
+
+}
+
+#main4 .col-md-1 {
+	height: 750px;
+	background-color: black;
+
+}
+
+#main4 .col-md-10 {
+	height: 750px;
+	background: rgba(128, 128, 128, .8);
+	color: black;
+	padding-top: 40px;
+
+}
+
+#main4 img {
+	height: 150px;
+	width: 250px;
+	margin: 5px;
+}
+
+#main5 .col-md-1 {
+	height: 590px;
+	background-color: black;
+
+}
+
+#main5 .col-md-10 {
+	height: 590px;
+	background: rgba(128, 128, 128, .5);
+	color: black;
+
+}
+
+section {
+	width:48%;
+/*	background: rgba(128, 128, 128, .8);
+*/	float:left;
+	height: 730px;
+	
+	margin-left: 10px;
+
+
+}
+
+#main2  img{
+	float: left;
+	margin: 5px;
+}
+
+#main2 p {
+	margin: 5px;
+}
+
+
+#main2 a {
+	color: black;
+	text-decoration: none;
+}
+
+#main2 a:hover {
+	font-style: italic;
+	color: #252e35;
+	
+
+}
+
+#main2 a:visited {
+	text-decoration: none;
+	
+
+}
+
+
+td {
+	font-size: 25px;
+
+}
+
+td a {
+
+}
+
+.castphoto {
+	height: 70px;
+	width: 75px;
+}
+
+#dir p {
+	height: 336px;
+	font-size: 16px;
+}
+
+
+
+#l img {
+	float: left;
+
+}
+
+#l p { 
+	font-size: 17px;
+	margin: 5px;
+}
+#r img {
+	width: 100%;
+	margin: 5px;
+}
+
+#r p { 
+	font-size: 12px;
+	margin: 5px;
+	font-style: italic;
+}
+
+.critic {
+	font-weight: bold;
+	font-size: 10px;
+
+}
+
+#poster {
+	height: 300px;
+	width: 188px;
+	padding: 5px;
+}
+
+#footer {
+	height: 25px;
+	background-color: #252e35;
+	color: #8a90b6;
+	text-align: center;
+
+}
+
+#sidebar {
+	background-color: black;
+	
+}
+
+
+.form-control {
+	width: 25%;
+}
+
+#state {
+	width: 20%;
+
+}
+
+#zip {
+	width: 20%;
+
+}
+
+#submitButton {
+	width: 10%;
+}
+
+#submitButton2 {
+	width: 10%;
+}
